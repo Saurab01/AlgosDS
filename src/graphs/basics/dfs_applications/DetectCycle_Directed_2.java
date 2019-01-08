@@ -10,6 +10,8 @@ import java.util.Set;
 /**
  * Created by saurabhagrawal on 06/01/19.
  */
+//We do DFS for all vertices, and maintain visited stack,recursion stack, if element present in recursion stack
+// means there is cycle
 public class DetectCycle_Directed_2 {
     public static void main(String[] a) {
 
